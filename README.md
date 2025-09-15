@@ -19,35 +19,35 @@ It covers S3 bucket creation, static hosting setup, permissions, and public acce
 ### 1️⃣ Create S3 Bucket
 Created bucket `yash-portfolio-hostingstaticwebsite` in `us-east-1`.
 
-[](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/01-bucket-created.png)
+![01 – Bucket created](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/01-bucket-created.png)
 
 ---
 
 ### 2️⃣ Upload Website Files
 Uploaded `final.html` and `profile_face.jpg`.
 
-![Uploaded files](screenshots/02-uploaded-files.png)
+![02 – Uploaded files](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/02-uploaded-files.png)
 
 ---
 
 ### 3️⃣ Configure Public Access
 Unblocked public access.
 
-![Block public access](screenshots/03-block-public-access.png)
+![03 – Block public access](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/03-block-public-access.png)
 
 ---
 
 ### 4️⃣ Enable Static Website Hosting
 Enabled hosting with index document `final.html`.
 
-![Static hosting enabled](screenshots/04-static-hosting-enabled.png)
+![04 – Static hosting enabled](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/04-static-hosting-enabled.png)
 
 ---
 
 ### 5️⃣ Apply Bucket Policy
 Granted public read-only access.
 
-![Bucket policy](screenshots/05-bucket-policy.png)
+![05 – Bucket policy](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/05%20Bucket%20Policy.png)
 
 **bucket-policy.json:**
 ```json
@@ -63,3 +63,7 @@ Granted public read-only access.
     }
   ]
 }
+
+![06 – Website endpoint URL](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/06-website-url..png)
+
+![07 – Website open](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/07-website-open.png)
