@@ -64,6 +64,7 @@ Granted public read-only access.
   ]
 }
 
-![06 – Website endpoint URL](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/06-website-url..png)
+![06 – Website endpoint URL](https://raw.githubusercontent.com/yashkumarunt/AWS-S3-Static-Website-Hosting/main/06-website-url.png)
 
-![07 – Website open](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/07-website-open.png)
+![07 – Website open](https://raw.githubusercontent.com/yashkumarunt/AWS-S3-Static-Website-Hosting/main/07-website-open.png)
+
