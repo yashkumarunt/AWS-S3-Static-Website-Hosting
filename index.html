@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Kumar Lal Das — Portfolio</title>
+  <meta name="description" content="Yash Kumar Lal Das — DevOps & Cloud Engineer portfolio highlighting CI/CD, AWS, Terraform, Docker, Jenkins, and Ansible." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0d1117; --panel:#161b22; --text:#e6edf3; --muted:#9da7b3; --accent:#1f6feb; --chip:#111827; --ok:#34d399; }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .container{max-width:1080px;margin:0 auto;padding:24px 16px 72px}
+    header{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center;margin-bottom:16px}
+    .avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;border:2px solid #263041}
+    .title h1{margin:0 0 6px;font-size:28px} .title p{margin:0;color:var(--muted)}
+    .UnderlineNav{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:1px solid #263041}
+    .UnderlineNav-body{display:flex;gap:6px;padding:0 8px;overflow-x:auto}
+    .UnderlineNav-item{display:flex;align-items:center;gap:8px;padding:12px 14px;border-bottom:2px solid transparent;color:var(--muted);white-space:nowrap;font-weight:600}
+    .UnderlineNav-item.active{color:var(--text);border-bottom-color:var(--accent)}
+    main{margin-top:20px;display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:960px){main{grid-template-columns:2fr 1fr}}
+    .card{background:var(--panel);border:1px solid #263041;border-radius:14px;padding:16px}
+    .card h2{margin:0 0 10px;font-size:18px}
+    .chip{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--chip);border:1px solid #253041;color:var(--muted);font-size:12px;margin:2px 6px 2px 0}
+    .grid-2{display:grid;grid-template-columns:1fr;gap:12px}
+    @media(min-width:720px){.grid-2{grid-template-columns:1fr 1fr}}
+    .exp{display:flex;gap:12px} .exp .dot{width:10px;height:10px;border-radius:999px;background:var(--ok);margin-top:7px}
+    .exp h3{margin:0;font-size:16px} .exp p{margin:2px 0;color:var(--muted)}
+    .footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #2a3344;background:#0b0f14;color:var(--text);font-weight:600}
+    .btn:hover{background:#0e141c}
+    section{scroll-margin-top:64px} .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="profile_face.jpg" alt="Yash Kumar Lal Das" class="avatar">
+      <div class="title">
+        <h1>Yash Kumar Lal Das</h1>
+        <p>Aspiring DevOps & Cloud Engineer | MS Information Systems & Technology | Ex-TCS Systems Engineer</p>
+        <p class="muted">Denton, TX • <a href="#contact">Contact</a></p>
+      </div>
+    </header>
+
+    <div class="UnderlineNav user-profile-nav">
+      <nav class="UnderlineNav-body" aria-label="Profile">
+        <a href="#overview" class="UnderlineNav-item active">Overview</a>
+        <a href="#projects" class="UnderlineNav-item">Projects</a>
+        <a href="#experience" class="UnderlineNav-item">Experience</a>
+        <a href="#education" class="UnderlineNav-item">Education</a>
+        <a href="#skills" class="UnderlineNav-item">Skills</a>
+        <a href="#contact" class="UnderlineNav-item">Contact</a>
+      </nav>
+    </div>
+
+    <main>
+      <div>
+        <section id="overview" class="card">
+          <h2>Overview</h2>
+          <p>
+            I’m a <strong>DevOps & Cloud Engineer</strong> with hands-on experience in <strong>CI/CD</strong>, automation, monitoring, and cloud deployments using <strong>AWS</strong>, <strong>Terraform</strong>, <strong>Docker</strong>, <strong>Jenkins</strong>, GitHub Actions, and Ansible. With a Master’s in Information Systems (in progress) and past work at <strong>TCS (Viasat Corp)</strong>, I’ve built secure, scalable, and reliable systems that cut downtime, boost efficiency, and ensure data integrity.
+          </p>
+          <div style="margin-top:10px">
+            <span class="chip">CI/CD</span>
+            <span class="chip">AWS</span>
+            <span class="chip">Terraform</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Jenkins</span>
+            <span class="chip">Ansible</span>
+            <span class="chip">Grafana</span>
+            <span class="chip">GitHub Actions</span>
+          </div>
+        </section>
+
+        <section id="projects" class="card">
+          <h2>Highlighted Projects</h2>
+          <div class="grid-2">
+            <div class="card" style="padding:12px">
+              <h3>CI/CD Pipeline Automation</h3>
+              <p class="muted">Designed and optimized CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment times by 40%.</p>
+              <p><strong>Stack:</strong> Jenkins, GitHub Actions, Docker, Terraform</p>
+            </div>
+            <div class="card" style="padding:12px">
+              <h3>Static Site on S3 + CloudFront</h3>
+              <p class="muted">Deployed a secure static website with caching and AWS WAF (Web Application Firewall).</p>
+              <p><strong>Stack:</strong> S3, CloudFront, Route 53, AWS WAF</p>
+            </div>
+            <div class="card" style="padding:12px">
+              <h3>Serverless Cart API</h3>
+              <p class="muted">Developed a serverless API using Lambda and API Gateway with DynamoDB persistence.</p>
+              <p><strong>Stack:</strong> API Gateway, Lambda, DynamoDB</p>
+            </div>
+            <div class="card" style="padding:12px">
+              <h3>Monitoring & Reporting</h3>
+              <p class="muted">Created dashboards and automated alerts for system health and logs.</p>
+              <p><strong>Stack:</strong> Grafana, CloudWatch, Python</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="card">
+          <h2>Experience</h2>
+          <div class="exp">
+            <div class="dot"></div>
+            <div>
+              <h3>Public Services Division Library Services Academic Assistant — UNT Libraries</h3>
+              <p class="muted">May 2025 – Present • Denton, TX</p>
+              <ul>
+                <li>Built <strong>Excel dashboards</strong> and reports from large datasets for data-driven decisions.</li>
+                <li>Prepared monthly and annual <strong>statistical reports</strong>, including ACRL submissions.</li>
+                <li>Provided <strong>technical troubleshooting</strong> and support for hardware/software issues.</li>
+                <li>Guided students/faculty in using <strong>academic databases</strong> and research strategies.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="exp">
+            <div class="dot"></div>
+            <div>
+              <h3>Systems Engineer — Tata Consultancy Services (TCS)</h3>
+              <p class="muted">July 2021 – Dec 2023 • Hyderabad, India</p>
+              <ul>
+                <li>Led <strong>CI/CD pipeline design</strong> with Jenkins and GitHub Actions, cutting deployment times by 40%.</li>
+                <li>Automated log analysis and system monitoring using Python and Grafana.</li>
+                <li>Managed multi-environment setups ensuring reliable deployments.</li>
+                <li>Strengthened system security with pfSense, backups, and configuration audits.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="card">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>M.S. — Information Systems & Technology</strong>, University of North Texas (2024 – 2025)</li>
+            <li><strong>B.Tech — Mechanical Engineering</strong>, Jawaharlal Nehru Technological University (2017 – 2021)</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside>
+        <section id="skills" class="card">
+          <h2>Skills</h2>
+          <div>
+            <div class="chip">CI/CD</div>
+            <div class="chip">AWS</div>
+            <div class="chip">Docker</div>
+            <div class="chip">Terraform</div>
+            <div class="chip">Jenkins</div>
+            <div class="chip">Ansible</div>
+            <div class="chip">Grafana</div>
+            <div class="chip">Python</div>
+            <div class="chip">SQL</div>
+            <div class="chip">System Monitoring</div>
+            <div class="chip">Networking & Security</div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Certifications</h2>
+          <ul>
+            <li>CompTIA Security+ (SY0-601) Prep</li>
+            <li>Foundations of Cybersecurity</li>
+            <li>Intermediate SQL</li>
+            <li>Joining Data in SQL</li>
+            <li>UiPath: Robotic Process Automation (RPA)</li>
+          </ul>
+        </section>
+
+        <section id="contact" class="card">
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:yashkumar.unt@gmail.com">yashkumar.unt@gmail.com</a></p>
+          <p>Phone: <a href="tel:+19398912067">+1 939-891-2067</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-kumar-lal-das" target="_blank" rel="noopener">linkedin.com/in/yash-kumar-lal-das</a></p>
+          <p>GitHub: <a href="#">github.com/yash</a></p>
+          <div style="margin-top:10px">
+            <a class="btn" href="#" onclick="window.print(); return false;">Download as PDF</a>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <p class="footer">© <span id="y"></span> Yash Kumar Lal Das. Portfolio generated with LinkedIn & resume details.</p>
+  </div>
+
+  <script>
+    const links = document.querySelectorAll('.UnderlineNav-item');
+    const sections = Array.from(document.querySelectorAll('section'));
+    function setActive() {
+      const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+      let current = '#overview';
+      sections.forEach(sec => {
+        if (sec.offsetTop - 80 <= scrollPos) current = '#' + sec.id;
+      });
+      links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === current));
+    }
+    document.addEventListener('scroll', setActive, { passive: true });
+    setActive();
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
