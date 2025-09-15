@@ -49,7 +49,9 @@ Granted public read-only access.
 
 ![05 – Bucket policy](https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/05%20Bucket%20Policy.png)
 
+
 ![06 – Website endpoint URL](https://raw.githubusercontent.com/yashkumarunt/AWS-S3-Static-Website-Hosting/main/06-website-url.png)
+
 
 ![07 – Website open](https://raw.githubusercontent.com/yashkumarunt/AWS-S3-Static-Website-Hosting/main/07-website-open.png)
 
