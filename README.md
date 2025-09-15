@@ -19,7 +19,7 @@ It covers S3 bucket creation, static hosting setup, permissions, and public acce
 ### 1️⃣ Create S3 Bucket
 Created bucket `yash-portfolio-hostingstaticwebsite` in `us-east-1`.
 
-![Bucket created](screenshots/01-bucket-created.png)
+https://github.com/yashkumarunt/AWS-S3-Static-Website-Hosting/blob/main/01-bucket-created.png
 
 ---
 
